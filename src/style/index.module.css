@@ -1,0 +1,183 @@
+body {
+  background-color: #b5c99a;
+  font-family: Montserrat, Arial, Helvetica;
+  background-image: url("../images/background-trees.jpg");
+  background-size: cover;
+}
+nav {
+  display: flex;
+  align-content: center;
+  align-items: flex-start;
+  justify-content: space-between;
+  overflow: hidden;
+  height: 140px;
+  margin: 10px;
+  padding: 10px;
+  margin-bottom: 30px;
+  background-color: rgb(96, 111, 73, 0.75);
+  border-radius: 5px;
+  height: 50px;
+}
+
+.title {
+  font-family: Josefin Sans, Arial, Helvetica;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav li {
+  padding-left: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: gray;
+}
+
+.about {
+  max-width: 500px;
+}
+
+.contactContainer {
+  background-color: rgb(96, 111, 73, 0.75);
+  margin: auto;
+  margin-top: 50px;
+  width: 77%;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.contact {
+  padding-left: 30px;
+}
+
+header {
+  width: 80%;
+  background-color: #606f49;
+  padding: 15px;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+
+  padding-top: 30px;
+}
+
+header .container {
+  justify-content: space-evenly;
+}
+
+.hobbies {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+.hobby {
+  display: flex;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.hobby > p {
+  margin: auto;
+}
+
+.projects .container {
+  justify-content: center;
+}
+
+.individual {
+  margin: 10px;
+  position: relative;
+}
+
+.individual:hover {
+  /* webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+  /* filter: blur(4px); */
+  opacity: 50%;
+}
+
+.individual .icon {
+  display: none;
+}
+
+.individual:hover .icon {
+  display: inline-block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: 1000;
+  color: black;
+}
+
+.projects {
+  background-color: rgb(96, 111, 73, 0.75);
+  margin-top: 50px;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.projects > h1 {
+  margin: 15px;
+  margin-left: 30px;
+}
+.project {
+  display: flex;
+  margin: 20px;
+}
+
+.projectDetails {
+  display: flex;
+}
+
+.projectVid {
+  margin: 20px;
+  /* border: solid #606f49 5px; */
+}
+
+.techStack {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: rgb(96, 111, 73, 0.75);
+  padding: 5px 0 0 70px;
+  width: 75%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.technologies {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.imgContainer {
+  flex: 0 1 calc(25%);
+  align-content: center;
+  justify-content: center;
+}

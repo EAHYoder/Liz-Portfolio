@@ -60,18 +60,20 @@ export default function IndexPage() {
               tools to help people.
             </p>
           </div>
-          <StaticImage
-            src="../images/profile-closer.jpg"
-            alt="Liz Profile Image"
-            placeholder="blurred"
-            layout="fixed"
-            style={{
-              width: "250px",
-              height: "250px",
-              borderRadius: "125px",
-              margin: "15px",
-            }}
-          />
+          <div id="about-pic">
+            <StaticImage
+              src="../images/profile-closer.jpg"
+              alt="Liz Profile Image"
+              placeholder="blurred"
+              layout="fixed"
+              style={{
+                width: "250px",
+                height: "250px",
+                borderRadius: "125px",
+                margin: "15px",
+              }}
+            />
+          </div>
         </div>
       </header>
       <div className={style.projects} id="projects">
@@ -156,6 +158,19 @@ export default function IndexPage() {
               }}
             />
             <p> Board Games </p>
+          </div>
+          <div className={style.hobby}>
+            <StaticImage
+              src="../images/hobbies/sewer.png"
+              alt="sewing"
+              placeholder="blurred"
+              layout="fixed"
+              style={{
+                width: "30px",
+                height: "30px",
+              }}
+            />
+            <p> Simple Sewing </p>
           </div>
         </div>
       </div>

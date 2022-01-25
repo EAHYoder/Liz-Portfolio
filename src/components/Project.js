@@ -26,7 +26,7 @@ export const projects = [
       ></iframe>
     ),
     github: "https://github.com/EAHYoder/fox-in-the-forest",
-    link: "https://liz-awp-template.herokuapp.com/",
+    link: "https://fox-in-the-forest-game.herokuapp.com/",
   },
   {
     title: "Homecare Feedback Tracker",
@@ -62,15 +62,15 @@ export function Project(props) {
       <div>
         <h3> {title} </h3>
         {github || link ? (
-          <h5>
+          <h4>
             {github ? <a href={github}>Github repository</a> : <p></p>} |{" "}
             {link ? <a href={link}>View Project Website</a> : <p></p>}
-          </h5>
+          </h4>
         ) : (
           <p></p>
         )}
 
-        <h5>{role}</h5>
+        <h4>{role}</h4>
         <h5>
           {" "}
           <em>{dates} </em>

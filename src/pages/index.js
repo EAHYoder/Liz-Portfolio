@@ -21,9 +21,6 @@ export default function IndexPage() {
             <a href="/"> Home</a>
           </li>
           <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
             <a href="#projects">Projects</a>
           </li>
           <li>
@@ -60,7 +57,7 @@ export default function IndexPage() {
               tools to help people.
             </p>
           </div>
-          <div id="about-pic">
+          <div className={style.aboutpic}>
             <StaticImage
               src="../images/profile-closer.jpg"
               alt="Liz Profile Image"

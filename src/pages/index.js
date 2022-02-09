@@ -78,6 +78,24 @@ export default function IndexPage() {
         <div className={style.project}>
           <div className={style.individual}>
             <StaticImage
+              src="../images/bed.png"
+              alt="Zease Project"
+              placeholder="blurred"
+              layout="fixed"
+              style={{
+                width: "30px",
+                height: "30px",
+              }}
+            />
+            <div className={style.icon}>
+              <FontAwesomeIcon icon={faGithub} />
+            </div>
+          </div>
+          <Project project={projects[0]} />
+        </div>
+        <div className={style.project}>
+          <div className={style.individual}>
+            <StaticImage
               src="../images/fox-icon.png"
               alt="fox in the forest project"
               placeholder="blurred"
@@ -91,7 +109,7 @@ export default function IndexPage() {
               <FontAwesomeIcon icon={faGithub} />
             </div>
           </div>
-          <Project project={projects[0]} />
+          <Project project={projects[1]} />
         </div>
         <div className={style.project}>
           <div className={style.individual}>
@@ -109,7 +127,7 @@ export default function IndexPage() {
               <FontAwesomeIcon icon={faGithub} />
             </div>
           </div>
-          <Project project={projects[1]} />
+          <Project project={projects[2]} />
         </div>
       </div>
       <TechStack />

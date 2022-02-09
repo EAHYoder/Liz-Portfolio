@@ -4,12 +4,38 @@ import * as style from "../style/index.module.css";
 
 export const projects = [
   {
+    title: "Zease",
+    role: "Developer",
+    dates: "January 2022 - February 2022",
+    description:
+      "A mobile app that allows users to log and track their sleep along with factors that may potentially affect it.",
+    features: [
+      "Developed with Node.js, React Native, Redux, and Firebase.",
+      "Created interactive data visualizations with Victory Native allowing users to easily see the relationships between their sleep and various factors of their selection ",
+      "Singlehandedly implemented redux across all components to make them simpler to read",
+      "Delivered full stack feature allowing users to create and edit their profiles.",
+    ],
+    // youtube: (
+    //   <iframe
+    //     width="560"
+    //     height="315"
+    //     src=""
+    //     title="YouTube video player"
+    //     frameborder="0"
+    //     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    //     allowfullscreen
+    //   ></iframe>
+    // ),
+    github: "https://github.com/Pikachu-Pack-2111/Zease",
+  },
+  {
     title: "Fox in the Forest",
     role: "Sole Developer",
     dates: "December 2021 - January 2022",
     description:
       "A two player card playing board game where the team mates cooperatively move the fox through the forest to collect all them gems, taking care not to stray from the path too often.  This is a web browser version of the game with custom animations.",
     features: [
+      "Developed with Node.js, Express, React, PostgreSQL, Redux",
       "Setup authentication via username and password so players can see their own information but not their teammates.",
       "Leveraged Socket.io to allow players to see the results of one another’s actions.",
       "Animated game play interactions and demonstrations of how to play with Anime.js library.",

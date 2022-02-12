@@ -13,7 +13,7 @@ export default function IndexPage() {
       <nav>
         <div>
           <p>
-            <span className="title">Liz Yoder </span>| Software Engineer
+            <span className="title">Liz Yoder </span>| Software Developer
           </p>
         </div>
         <ul>

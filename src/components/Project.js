@@ -27,6 +27,7 @@ export const projects = [
     //   ></iframe>
     // ),
     github: "https://github.com/Pikachu-Pack-2111/Zease",
+    link: "https://zease.vercel.app/",
   },
   {
     title: "Fox in the Forest",

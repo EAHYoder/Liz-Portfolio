@@ -47,14 +47,14 @@ export default function IndexPage() {
             </p>
             <p>
               For all my projects I keep communication and documentation flowing
-              so the project on track. In my last project we built a mobile app
-              to help people improve their sleep, and I delivered the feature
-              that displayed charts of the user’s sleep data. I loved getting to
-              celebrate each person’s work as it was deployed.
+              so the project stays on track. In my last project we built a
+              mobile app to help people improve their sleep, and I delivered the
+              feature that displayed charts of the user’s sleep data. I loved
+              getting to celebrate each person’s work as it was deployed.
             </p>
             <p>
-              I’m very excited to take a role that lets me keep building
-              programs, and I can’t help but ensure any project stays organized!
+              I’m excited to take a role that lets me keep building programs,
+              and I can’t help but ensure any project stays organized!
             </p>
           </div>
           <div className={style.aboutpic}>

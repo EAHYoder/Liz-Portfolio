@@ -32,29 +32,29 @@ export default function IndexPage() {
         <div className={style.container} id="about">
           <h1>About Me</h1>
           <div className={style.about}>
+            <p>I use technology to bring order to chaos.</p>
             <p>
-              Before my recent career switch I had been a supervisor with 5+
-              years of experience in healthcare customer service, and my work
-              involved a lot of project management
+              I spent over five years as a customer service supervisor
+              surrounded by less technical folks, and that gave me a lot of fun
+              opportunities to lead projects focused on increasing organization
+              and efficiency.
             </p>
             <p>
-              I decided to pivot into software engineering after I got the
-              opportunity to design, build, and implement a feedback tracker
-              intranet site for my department. It made me realize how creative
-              and satisfying technical work is, and it showed me that I have an
-              aptitude for it.
+              Chasing systematic improvement like that eventually led me to
+              programming where I’ve been continually delighted by every chance
+              I get to build something- regardless of whether I’m the sole
+              developer or delivering a feature within a team.
             </p>
             <p>
-              My strengths include attention to detail, follow through, and
-              public speaking. I enjoy organizing information as a way of
-              simplifying work. I can do this when leading a group or as a
-              member of a team.
+              For all my projects I keep communication and documentation flowing
+              so the project on track. In my last project we built a mobile app
+              to help people improve their sleep, and I delivered the feature
+              that displayed charts of the user’s sleep data. I loved getting to
+              celebrate each person’s work as it was deployed.
             </p>
             <p>
-              I’m excited to combine this experience with the formal training
-              I’ve received at Fullstack Academy’s software engineering bootcamp
-              to find a role where I can solve technical problems and build
-              tools to help people.
+              I’m very excited to take a role that lets me keep building
+              programs, and I can’t help but ensure any project stays organized!
             </p>
           </div>
           <div className={style.aboutpic}>

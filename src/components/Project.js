@@ -5,8 +5,8 @@ import * as style from "../style/index.module.css";
 export const projects = [
   {
     title: "Zease",
-    role: "Developer",
-    dates: "January 2022 - February 2022",
+    role: "Development Team Member",
+    dates: "February 2022",
     description:
       "A mobile app that allows users to log and track their sleep along with factors that may potentially affect it.",
     features: [
@@ -14,6 +14,7 @@ export const projects = [
       "Created interactive data visualizations with Victory Native allowing users to easily see the relationships between their sleep and various factors of their selection ",
       "Singlehandedly implemented redux across all components to make them simpler to read",
       "Delivered full stack feature allowing users to create and edit their profiles.",
+      "Leveraged Git and Github to organize work tickets and merge in each teammate’s contributions.",
     ],
     youtube: (
       <iframe
@@ -54,6 +55,20 @@ export const projects = [
     ),
     github: "https://github.com/EAHYoder/fox-in-the-forest",
     link: "https://fox-in-the-forest-game.herokuapp.com/",
+  },
+  {
+    title: "Objectivley Better Books",
+    role: "Development Team Member",
+    dates: "January 2022",
+    description:
+      "Online shopping experience allowing users to view items and their details, add items to cart, log in, and checkout.",
+    features: [
+      "Developed with Node.js, Express, React/, PostgreSQL, Redux",
+      "Delivered full stack implementation of cart feature allowing all users to add/remove cart items and allowing logged in users to access a cart from a previous session.",
+    ],
+    //youtube: (),
+    github: "github.com/Alpha-Quad-Squad/GraceShopper",
+    link: "grace-shopper-alpha-quad-squad.herokuapp.com/home ",
   },
   {
     title: "Homecare Feedback Tracker",

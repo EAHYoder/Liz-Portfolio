@@ -77,8 +77,8 @@ export const projects = [
         allowfullscreen
       ></iframe>
     ),
-    github: "github.com/Alpha-Quad-Squad/GraceShopper",
-    link: "grace-shopper-alpha-quad-squad.herokuapp.com/home ",
+    github: "https://github.com/Alpha-Quad-Squad/GraceShopper",
+    link: "https://grace-shopper-alpha-quad-squad.herokuapp.com/home",
   },
   {
     title: "Homecare Feedback Tracker",

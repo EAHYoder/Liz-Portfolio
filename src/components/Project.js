@@ -66,7 +66,17 @@ export const projects = [
       "Developed with Node.js, Express, React/, PostgreSQL, Redux",
       "Delivered full stack implementation of cart feature allowing all users to add/remove cart items and allowing logged in users to access a cart from a previous session.",
     ],
-    //youtube: (),
+    youtube: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/fawegxHorYc"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    ),
     github: "github.com/Alpha-Quad-Squad/GraceShopper",
     link: "grace-shopper-alpha-quad-squad.herokuapp.com/home ",
   },

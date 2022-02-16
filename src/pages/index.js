@@ -114,6 +114,24 @@ export default function IndexPage() {
         <div className={style.project}>
           <div className={style.individual}>
             <StaticImage
+              src="../images/book.png"
+              alt="Better Books Project"
+              placeholder="blurred"
+              layout="fixed"
+              style={{
+                width: "30px",
+                height: "30px",
+              }}
+            />
+            <div className={style.icon}>
+              <FontAwesomeIcon icon={faGithub} />
+            </div>
+          </div>
+          <Project project={projects[2]} />
+        </div>
+        <div className={style.project}>
+          <div className={style.individual}>
+            <StaticImage
               src="../images/feedback-icon.png"
               alt="feedback tracker project"
               placeholder="blurred"
@@ -127,7 +145,7 @@ export default function IndexPage() {
               <FontAwesomeIcon icon={faGithub} />
             </div>
           </div>
-          <Project project={projects[2]} />
+          <Project project={projects[3]} />
         </div>
       </div>
       <TechStack />

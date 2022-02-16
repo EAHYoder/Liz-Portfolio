@@ -15,17 +15,17 @@ export const projects = [
       "Singlehandedly implemented redux across all components to make them simpler to read",
       "Delivered full stack feature allowing users to create and edit their profiles.",
     ],
-    // youtube: (
-    //   <iframe
-    //     width="560"
-    //     height="315"
-    //     src=""
-    //     title="YouTube video player"
-    //     frameborder="0"
-    //     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    //     allowfullscreen
-    //   ></iframe>
-    // ),
+    youtube: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/Vi0ANkiJmTQ"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    ),
     github: "https://github.com/Pikachu-Pack-2111/Zease",
     link: "https://zease.vercel.app/",
   },
